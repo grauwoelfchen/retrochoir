@@ -1,0 +1,11 @@
+/target
+/tmp
+
+/.tool/kcov
+/.tool/gitlab-runner
+
+.env.ci
+.env
+
+*.jpeg
+*.png
