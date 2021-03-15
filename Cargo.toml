@@ -1,16 +1,37 @@
 [package]
 name = "retrochoir"
+description = """\
+A match result retrospection tool utilizes OCR for games\
+"""
 version = "0.0.1"
 authors = ["Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net>"]
 edition = "2018"
+homepage = "https://gitlab.com/grauwoelfchen/retrochoir"
+readme = "README.md"
+keywords = ["ocr", "game"]
+categories = [
+  "command-line-interface",
+  "command-line-utilities",
+  "computer-vision",
+]
+documentation = "https://docs.rs/crate/retrochoir"
+repository = "https://gitlab.com/grauwoelfchen/retrochoir"
+license = "GPL-3.0-or-later"
 
 exclude = [
-  ".cargo-huskey/*",
-  ".tool/*",
+  "doc",
+  ".cargo-husky",
+  ".tool",
   "Makefile",
-  ".env",
+  "rust-toolchain",
+  ".env*",
+  ".gitignore",
   ".clippy.toml",
   ".rustfmt.toml",
+  ".gitlab-ci.yml",
+  "*.jpeg",
+  "*.png",
+  "*.tiff",
 ]
 
 [badges]
