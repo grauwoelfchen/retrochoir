@@ -7,6 +7,11 @@
 * llvm
 * clang
 
+## Install
+
+```zsh
+% cargo install retrochoir
+```
 
 ## Usage
 
